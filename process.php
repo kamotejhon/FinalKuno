@@ -7,27 +7,26 @@
     
     $host = "localhost";
     $dbusername = "root";
-    $dbpassword = "kamotejhon1";
+    $dbpassword = "salacup123";
     $port = NULL;
-    $dbname = "login";
+    $dbname = "authentication";
 
     $conn = new mysqli ($host, $dbusername, $dbpassword , $dbname);
 
     if (mysqli_connect_error()){
-        die('Connect Error ('.mysqli_connect_errno().') '
-        .mysqli_connect_error());
+        die('Connect Error ('.mysqli_connect_errno().')'.mysqli_connect_error());
         }
     else{
     
-    $sql = "INSERT INTO login (username, passsword)
-    values ('$username','$password')";
+    $sql = "INSERT INTO users (username, password) VALUES ('$username','$password')";
+    
 
     if ($conn->query($sql)){
     echo "New record is inserted sucessfully";
     } 
 
     else{
-        echo "Error: ". $sql ."". $conn->error;
+        echo "Error: ". $sql ."<br>". $conn->error;
     }
     $conn->close();
     }
@@ -41,5 +40,6 @@
     else{
         echo "Username should not be empty";
         die();
-    }
+    }   
+
     ?>
