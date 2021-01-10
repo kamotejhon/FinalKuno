@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id = "frm">
-        <form action = "process/php" metho = "POST">
+        <form action = "process.php" method = "POST">
 
             <p>
                 <label>Username</label>
@@ -18,10 +18,11 @@
             </p>
 
             <p>
-                <input type = "submit" id = "btn" name = "login" />
+                <input type = "submit" id = "btn" name = "submit" />
             </p>
         </form>
     </div>
+
 </body>
 </html>
     
