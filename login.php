@@ -4,7 +4,7 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-<h1>Welcome to our Project</h1>
+<h1>Login System</h1>
     <div id = "frm">
         <form action = "home.php" method = "post">
             <p>
@@ -17,19 +17,16 @@
                 <input type = "password" id = "password" name = "password" />
             </p>
 
-            <p>
-                <input type = "submit"  name = "submit" value="Login"/>
+                <input type = "submit" name = "submit" value = "Login"  />
             </p>
-            
         </form>
 
-        <form action = "registration.php" method = "post">
-            <p>
-                <input type = "submit"  name = "submit" value="Register" />
+        <form action = "Registration.php" method = "post">
+            <p>   
+                <input type = "submit" name = "submit" value = "Registration"  />
             </p>
         </form>
     </div>
-
 </body>
 </html>
     

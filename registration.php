@@ -4,7 +4,7 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-<p>Registration Form</p>
+<h1>Registration Form</h1>
     <div id = "frm">
         <form action = "process.php" method = "post">
             <p>

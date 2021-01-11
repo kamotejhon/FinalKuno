@@ -3,7 +3,7 @@
     <title> Welcom To my Browse </title>
 </head>
 <body>
-    <a href = "logout.php"> LOGOUT</a>
+    <a href = "login.php"> LOGOUT</a>
 
     <h1> Welcome User </h1>
         
