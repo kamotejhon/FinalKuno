@@ -4,35 +4,30 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-<h1>Registration Form</h1>
-    <div id = "frm">
-        <form action = "process.php" method = "post">
+
+<div id="frm">
+<form action = "registration_code.php" method = "post">
             <p>
                 <label>Username</label>
-                <input type = "text" id = "username" name = "username" />
+                <input type = "text" id = "username" name = "username" require />
             </p>
-
             <p>
-                <label>Password</label>
-                <input type = "password" id = "password" name = "password" />
+                <label>password</label>
+                <input type = "text" id = "pwd" name = "password" require/>
             </p>
-
             <p>
                 <label>Year/Section</label>
-                <input type = "text" name = "YS" />
+                <input type = "text" id = "id" name = "YS" require/>
             </p>
-
             <p>
-                <label>School ID Number</label>
-                <input type = "number" id = "id" name = "id" />
+                <label>School ID</label>
+                <input type = "text" id = "id" name = "id" require/>
             </p>
-
-            <p>
-                <input type = "submit" name = "submit" value = "Enter" />
-            </p>
-        </form>
+      <button type="submit" name="register" class="btn btn-primary">Register</button>
     </div>
+  </div>
+</form>
+</div>
 </body>
 </html>
     
-
