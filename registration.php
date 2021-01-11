@@ -5,7 +5,7 @@
 </head>
 <body>
     <div id = "frm">
-        <form action = "file.php" method = "post">
+        <form action = "process.php" method = "post">
 
             <p>
                 <label>Username</label>
@@ -19,7 +19,7 @@
 
             <p>
                 <label>Year/Section</label>
-                <input type = "text" name = "yearsection" />
+                <input type = "text" name = "YS" />
             </p>
 
             <p>
