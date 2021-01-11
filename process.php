@@ -1,4 +1,5 @@
 <?php
+
     $username = filter_input(INPUT_POST, 'username');
     $password = filter_input(INPUT_POST, 'password');
     $YS = filter_input(INPUT_POST, 'YS');
@@ -26,7 +27,7 @@
     
 
             if ($conn->query($sql)){
-                echo "New record is inserted sucessfully";
+                header('location: try1.php');
             } 
 
             else{
@@ -34,9 +35,9 @@
             }
 
         $conn->close();
+                }//end of if sa pinaka taas
             }//end of if sa pinaka taas
         }//end of if sa pinaka taas
-    }//end of if sa pinaka taas
     }//end of if sa pinaka taas
     else{
         echo "Password should not be empty";

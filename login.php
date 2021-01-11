@@ -4,9 +4,9 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-<p>Registration Form</p>
+<h1>Welcome to our Project</h1>
     <div id = "frm">
-        <form action = "process.php" method = "post">
+        <form action = "home.php" method = "post">
             <p>
                 <label>Username</label>
                 <input type = "text" id = "username" name = "username" />
@@ -18,20 +18,18 @@
             </p>
 
             <p>
-                <label>Year/Section</label>
-                <input type = "text" name = "YS" />
+                <input type = "submit"  name = "submit" value="Login"/>
             </p>
+            
+        </form>
 
+        <form action = "registration.php" method = "post">
             <p>
-                <label>School ID Number</label>
-                <input type = "number" id = "id" name = "id" />
-            </p>
-
-            <p>
-                <input type = "submit" name = "submit" value = "Enter" />
+                <input type = "submit"  name = "submit" value="Register" />
             </p>
         </form>
     </div>
+
 </body>
 </html>
     
