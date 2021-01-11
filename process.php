@@ -1,15 +1,17 @@
 <?php
     $username = filter_input(INPUT_POST, 'username');
     $password = filter_input(INPUT_POST, 'password');
+    $YS = filter_input(INPUT_POST, 'YS');
         
     if (!empty($username)){
-    if (!empty($password)){
+        if (!empty($password)){
+            if (!empty($YS)){
     
     $host = "localhost";
     $dbusername = "root";
     $dbpassword = "salacup123";
     $port = NULL;
-    $dbname = "authentication";
+    $dbname = "registration";
 
     $conn = new mysqli ($host, $dbusername, $dbpassword , $dbname);
 
@@ -18,7 +20,7 @@
         }
     else{
     
-    $sql = "INSERT INTO users (username, password) VALUES ('$username','$password')";
+    $sql = "INSERT INTO register (username, password, YS) VALUES ('$username','$password','$YS')";
     
 
     if ($conn->query($sql)){
@@ -31,7 +33,7 @@
     $conn->close();
     }
     }
-
+}
     else{
         echo "Password should not be empty";
         die();
