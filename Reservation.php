@@ -24,13 +24,14 @@
     
     <tr>
         <th>6:30AM</th>
+        <th><a href = "information.php"> Return</a></th>
     </tr> 
 
     <tr>
         <th>8:30AM</th>
     </tr> 
 
-    <tr>
+    <tr> 
         <th>10:30AM</th>
     </tr> 
 
@@ -56,6 +57,9 @@
 
 
     </table>
+    <p>
+    <a href = "logout.php"> logout</a><br>
+    <p>click here to logout</p>
 
 </body>
 </html>

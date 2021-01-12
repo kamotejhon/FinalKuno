@@ -9,19 +9,19 @@
 <form action = "registration_code.php" method = "post">
             <p>
                 <label>Username</label>
-                <input type = "text" id = "username" name = "username" require />
+                <input type = "text" id = "username" name = "username" required="" />
             </p>
             <p>
                 <label>password</label>
-                <input type = "text" id = "pwd" name = "password" require/>
+                <input type = "text" id = "pwd" name = "password" required=""/>
             </p>
             <p>
                 <label>Year/Section</label>
-                <input type = "text" id = "id" name = "YS" require/>
+                <input type = "text" id = "id" name = "YS" required=""/>
             </p>
             <p>
                 <label>School ID</label>
-                <input type = "text" id = "id" name = "id" require/>
+                <input type = "text" id = "id" name = "id" required=""/>
             </p>
       <button type="submit" name="register" class="btn btn-primary">Register</button>
     </div>

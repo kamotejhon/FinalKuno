@@ -8,11 +8,11 @@
   <form action = "login_code.php" method = "post">
             <p>
                 <label>Username</label>
-                <input type = "text" id = "username" name = "username" />
+                <input type = "text" id = "username" name = "username" required=""/>
             </p>
             <p>
                 <label>password</label>
-                <input type = "text" id = "pwd" name = "password" />
+                <input type = "text" id = "pwd" name = "password" required=""/>
             </p>
           
       <button type="submit" name="login" class="btn btn-primary">Login</button>
