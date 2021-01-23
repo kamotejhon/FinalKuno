@@ -5,6 +5,7 @@
 </head>
 <body>
 <div id="frm"> 
+
     <form action = "reserve.php" method = "post">
             
             <label>Username</label>
