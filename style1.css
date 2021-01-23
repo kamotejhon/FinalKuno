@@ -1,16 +1,16 @@
 body{
-    background: #eee;
+    background: green;
 }
-#frm{
-    border: solid gray 1pc;
+#a{
+    border: solid blue 1pc;
     width: 20%;
     border-radius: 5px;
     margin: 100px auto;
     background: white;
-    padding: 50px;   
+    padding: 20px;   
 }
-#btn{
-    color: #fff;
+#b{
+    color: green;
     background: #337ab7;
     padding: 5px;
     margin-left: 69%;

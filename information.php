@@ -1,8 +1,3 @@
-<?php
-    session_start();
-    include "reserve.php";
-?>
-
 <html>
 <head>
     <title> Welcom To my Browse </title>
@@ -27,7 +22,6 @@
                 <textarea name = "detail" placeholder = "Input Something" rows = "10" required=""> </textarea>
             </p>
         <button type="submit" name="submit" >submit</button>
-        
     </form>
 </div>
 </body>

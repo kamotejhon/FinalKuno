@@ -24,35 +24,90 @@
     
     <tr>
         <th>6:30AM</th>
-        <th><a href = "information.php"> Return</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>8:30AM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr> 
         <th>10:30AM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>12:30PM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>3:30PM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>5:30PM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>7:30PM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
     <tr>
         <th>9:30PM</th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
+        <th><a href = "information.php"> Click</a></th>
     </tr> 
 
 
