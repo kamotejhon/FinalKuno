@@ -5,7 +5,7 @@
     <link rel = "stylesheet" href = "style1.css">
 </head>
 <body>
-<div id="a">
+<div id="a"> 
     <form action = "login_code.php" method = "post">
         <p>
             <label>Username</label>

@@ -4,7 +4,7 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
-<div id="frm">
+<div id="frm"> 
     <form action = "reserve.php" method = "post">
             
             <label>Username</label>
